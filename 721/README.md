@@ -1,6 +1,6 @@
 # ZRC-721: Zcash NFT Inscription Standard
 
-ZRC-721 is a lightweight, open NFT inscription standard for Zordinals (Ordinals on Zcash). It borrows the minimal envelope style of BRC-20 and the metadata conventions of ERC-721. Each mint inscription _is_ the NFT (supply is always 1), so there is no transfer operation beyond moving the inscription itself.
+ZRC-721 is a lightweight, open NFT inscription standard for Zcash. It borrows the minimal envelope style of BRC-20 and the metadata conventions of ERC-721. Each mint inscription _is_ the NFT (supply is always 1), so there is no transfer operation beyond moving the inscription itself.
 
 ## Goals
 - Minimal ops: only `deploy` and `mint`
