@@ -6,6 +6,7 @@ ZRC-20 is a minimal, BRC-20–style fungible token standard for Zordinals (Ordin
 - UTF-8 JSON payloads. Suggested content type: `text/plain;charset=utf-8` (or `application/json`).
 - Common fields: `p` must be `zrc-20`; `tick` is the token ticker (commonly 4 uppercase letters).
 - Numeric fields are stringified integers.
+- Canonicality: Only the first valid `deploy` for a given `tick` is recognized; later deploy attempts with the same `tick` should be ignored by indexers.
 
 ### Deploy
 Declares a token, its max supply, and per-mint cap.

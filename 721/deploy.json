@@ -1,0 +1,8 @@
+{
+    "p": "zrc-721",
+    "op": "deploy",
+    "collection": "ZGODS",
+    "supply": "10000",
+    "meta": "bafybeicqjqzixdtawkbcuyaagrmk3vyfweidwzb6hwbucadhoxoe2pd3qm",
+    "royalty": "100"
+}

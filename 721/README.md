@@ -11,6 +11,7 @@ ZRC-721 is a lightweight, open NFT inscription standard for Zordinals (Ordinals 
 
 ## Inscription Envelopes
 All inscriptions are UTF-8 JSON. Recommended content type: `text/plain;charset=utf-8` (or `application/json` if your tooling prefers).
+Only the first valid `deploy` for a given `collection` is canonical; later deploys with the same `collection` should be ignored by indexers.
 
 ### Deploy inscription
 Declares a collection and its metadata root.
