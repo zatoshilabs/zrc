@@ -1,4 +1,4 @@
-# ZRC-20: Zordinals Fungible Token Standard
+# ZRC-20: Zcash Fungible Token Standard
 
 ZRC-20 is a minimal, BRC-20–style fungible token standard for Zordinals (Ordinals on Zcash). Token state is tracked by JSON inscriptions: `deploy`, `mint`, and `transfer`. Indexers/wallets determine balances by following inscription ownership (no smart contracts required).
 
@@ -71,9 +71,5 @@ Transfer settlement: Balances update when the transfer inscription is sent to th
 3) **Transfer** by inscribing `transfer` and sending that inscription to the recipient.
 4) **Indexing**: Wallets/marketplaces sum mints and transfers by current inscription ownership to compute balances.
 
-## Examples in this folder
-- Deploy envelope: `20/deploy.json`
-- Mint envelope: `20/mint.json`
-
-## Openness
+## Permissionless & Open Source
 This specification is open and permissionless. Implement freely in wallets, indexers, bridges, and marketplaces on Zordinals.
